@@ -1,0 +1,109 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(1, 1, 24);
+    margin: 0;
+}
+.hero{
+
+   background: url('../Img/ban.png') center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    color: aliceblue;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.hero h1:hover{
+    color: orange;
+}
+.hero h1 span{
+    color: orange;
+    font-size: 18px;
+    
+}
+.hero ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 8px;
+    font-size: 22px;
+    background-color: darkblue;
+    border-radius: 10px 0px 10px 10px;
+}
+.hero ul li:hover{
+    background-color: transparent;
+}
+.hero ul .btn1{
+    background-color: darkorange;
+}
+.hero ul .btn3{
+    background-color: darkorange;
+}
+.hero ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+.princ{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+.princ div{
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+    color: azure;
+}
+.princ div h2{
+    color: orange;
+}
+.princ ul{
+    color: orange;
+}
+.princ div ul li{
+    list-style-type: none;
+    color: beige;
+}
+.princ div img{
+    border-radius: 50px 0px 40px 30px;
+}
+.line{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+.line .line1{
+    background-color: grey;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+}
+.princ div .box{
+    box-shadow: 10px 0 8px 3px skyblue;
+    padding: 10px;
+    border-radius: 50% 0 30% 20%;
+}
+.footer{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    color: beige;
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+}
+.footer div .side p a{
+    text-decoration: none;
+    color: orange;
+}
+.footer div form input{
+    border: none;
+    padding: 10px;
+}
+.footer div form button{
+    background-color: orange;
+    padding: 10px;
+    color: azure;
+    border: none;
+    border-radius: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
