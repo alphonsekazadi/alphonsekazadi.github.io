@@ -5,7 +5,7 @@ body{
 }
 .hero{
 
-   background: url('../Img/ban.png') center;
+   background-color: azure;
     background-size: cover;
     padding: 4rem 2rem;
     color: aliceblue;
@@ -27,21 +27,21 @@ body{
     padding: 5px;
     margin: 8px;
     font-size: 22px;
-    background-color: darkblue;
+    background-color: transparent;
     border-radius: 10px 0px 10px 10px;
 }
 .hero ul li:hover{
     background-color: transparent;
 }
 .hero ul .btn1{
-    background-color: darkorange;
+    background-color: transparent;
 }
 .hero ul .btn3{
-    background-color: darkorange;
+    background-color: transparent;
 }
 .hero ul li a{
     text-decoration: none;
-    color: azure;
+    color: beige;
 }
 
 .princ{
@@ -66,7 +66,7 @@ body{
     color: beige;
 }
 .princ div img{
-    border-radius: 50px 0px 40px 30px;
+    border-radius: 50%;
 }
 .line{
     display: grid;
