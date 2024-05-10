@@ -5,10 +5,10 @@ body{
 }
 .hero{
 
-   background-color: azure;
+   background-color: white;
     background-size: cover;
     padding: 4rem 2rem;
-    color: aliceblue;
+    color: black;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -41,7 +41,7 @@ body{
 }
 .hero ul li a{
     text-decoration: none;
-    color: beige;
+    color: darkblue;
 }
 
 .princ{
